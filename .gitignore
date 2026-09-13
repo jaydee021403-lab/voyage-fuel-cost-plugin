@@ -1,0 +1,11 @@
+*.xlsx
+*.xls
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+outputs/
+work/
+
