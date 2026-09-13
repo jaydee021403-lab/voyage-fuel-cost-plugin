@@ -17,21 +17,19 @@ The repository intentionally contains no vessel screenshots, Excel workbooks, fu
 
 ## Install for teammate testing
 
-Each teammate needs GitHub access to this private repository and the Codex CLI installed.
+Each teammate needs GitHub access to this private repository, working Git credentials for that account, and the Codex CLI installed. Do not share a password or personal access token with teammates; each person should authenticate their own GitHub account.
 
 ```text
-codex plugin marketplace add OWNER/REPOSITORY
+codex plugin marketplace add jaydee021403-lab/voyage-fuel-cost-plugin
 codex plugin add voyage-fuel-cost@pdm-voyage-plugins
 ```
 
 Restart Codex and start a new conversation after installation. To receive later updates:
 
 ```text
-codex plugin marketplace upgrade OWNER/REPOSITORY
+codex plugin marketplace upgrade jaydee021403-lab/voyage-fuel-cost-plugin
 codex plugin update voyage-fuel-cost@pdm-voyage-plugins
 ```
-
-Replace `OWNER/REPOSITORY` with the repository URL owner and name after this repository is created.
 
 ## Test case
 
